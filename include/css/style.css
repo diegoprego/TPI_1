@@ -11,30 +11,24 @@
 
 /* Carousel */
 
-/* .carousel-caption {
-    top: 30%;
-
-    bottom: auto;
-    display: inline;
-} */
 
 .carousel-caption {
     color: white;
-/*     right: 0;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    right: 0;
     top: 0;
     left: 0;
-    bottom: 0; */
-    background: rgba(0,0,0,0.5);
-    
-
+    bottom: 0;
 }
 
-.carousel-item img {
-    background: rgba(0,0,0,0.5);
-
+#caption-content{
+    padding-right: 50px;
+    position: absolute;
+    right: 50px;
+    top: 30%;
+    text-align: right;
 }
-
-
 
 #boton-tickets {
     background-color: green;
